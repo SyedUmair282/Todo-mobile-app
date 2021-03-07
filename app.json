@@ -1,32 +1,34 @@
 {
-  "expo": {
-    "name": "todo_app",
-    "slug": "todo_app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "expo": {
+        "name": "Todo_app",
+        "slug": "todo_app",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/sketch-3-todo-list-app-icon-template.png",
+        "splash": {
+            "image": "./assets/sketch-3-todo-list-app-icon-template.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#2a1c5a"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/sketch-3-todo-list-app-icon-template.png",
+                "backgroundColor": "#2a1c5a"
+            },
+            "package": "com.us.TodoApp",
+            "versionCode": 1
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
     }
-  }
 }
